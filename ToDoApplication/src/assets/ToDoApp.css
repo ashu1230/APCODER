@@ -1,0 +1,25 @@
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden; /* Prevents border-radius from leaking outside the table */
+  margin: auto;
+}
+.footer { 
+  bottom: 0;
+  width: 100%;
+  border-radius: 12px;
+}
+.footer .container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer span {
+  font-size: 16px;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
