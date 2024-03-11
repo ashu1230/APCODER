@@ -21,7 +21,7 @@ export const completeTodoMixin = {
       } catch (error) {
         console.error("Error completing todo:", error);
         toast.error("Error completing todo", {autoClose: 2000, theme: 'colored', position: toast.POSITION.BOTTOM_RIGHT, });
-      }
+      } 
     }
   }
 };
